@@ -1,4 +1,4 @@
-{
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -170,6 +170,35 @@ background:#c9e4de;
     margin-top:10px;
   transform:skew(20deg,0deg);
 }
+.social {
+position: fixed; 
+left: 0;
+top: 200px; 
+z-index: 2000; }
+ 
+.social ul {
+list-style:none;
+}
+ 
+.social ul li a {
+display: inline-block;
+color:#fff;
+background: #ffcdb2;
+padding: 20px 15px;
+text-decoration: none;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease; 
+}
+ 
+.social ul li .icon-facebook {background:#3b5998;} 
+.social ul li .icon-pinterest {background: #ae181f;}
+.social ul li .icon-mail {background: #84a59d;}
+
+.social ul li a:hover {
+background: #000; 
+padding: 10px 30px; 
+}
 
 footer .contacto{
     height:600px;
@@ -205,18 +234,6 @@ footer .contacto  textarea{
     font-family:'lato';
     font-weight:300;
 }
-
-.redes-sociales ul a{
-    background:#c9e4de;
-    width:150px;
-    height:25px;
-    padding:5px;
-    margin-top:10px;
-     border-radius:8px;
-     text-decoration: none;
-      display:flex;
- }
-
 
 footer .contacto  textarea{
     height:150px;
