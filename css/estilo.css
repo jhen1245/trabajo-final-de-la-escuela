@@ -1,4 +1,4 @@
-*{
+{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -205,6 +205,18 @@ footer .contacto  textarea{
     font-family:'lato';
     font-weight:300;
 }
+
+.redes-sociales ul a{
+    background:#c9e4de;
+    width:150px;
+    height:25px;
+    padding:5px;
+    margin-top:10px;
+     border-radius:8px;
+     text-decoration: none;
+      display:flex;
+ }
+
 
 footer .contacto  textarea{
     height:150px;
